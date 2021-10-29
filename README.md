@@ -1,1 +1,2 @@
 # Odin-Landing-Page
+This is a student project for The Odin Project's flexbox unit. I tweaked a few colors and layout choices to better suit my father's business, hence the differences compared to the original/goal end-product. 
