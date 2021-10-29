@@ -1,0 +1,190 @@
+/* Styles.css */
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.hero-header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 0px 175px 100px 175px;
+    row-gap: 50px;
+    flex: 1;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top-left {
+    display: flex;
+    align-items: flex-end;
+}
+.logo-box {
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 1px;
+    margin-top: 25px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.hero .leftside {
+    flex: 1;
+}
+.hero .rightside {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-maintext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero-subtext {
+    font-size: 18px;
+    color: #efe7eb;
+    margin-top: 5px;
+}
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 45px;
+}
+.info-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+    padding-bottom: 45px;
+}
+.quote-container {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 250px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.by-text {
+    font-size: 18px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+.signup {
+    background-color: #228B22;
+    margin: 75px 175px;
+    border-style: solid;
+    border-color:#228B22;
+    border-radius: 8px;
+    color: #efe7eb;
+    padding: 50px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boldtext {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+.subtext {
+    font-weight: lighter;
+}
+.footer {
+    background-color: #1f2937;
+    height: 50px;
+    align-self: flex-end;
+    text-align: center;
+    padding-top: 20px;
+    color:#e5e7eb;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #efe7eb;
+    margin-bottom: 0px;
+}
+.logo-text {
+    font-family: "Merriweather"; 
+    font-size: 32px;
+    color: white;
+    padding-left: 5px;
+}
+img[src="PRLlogo.svg"] {
+    height: 70px;
+}
+img[src="img1.png"] {
+    height: 250px;
+}
+img[src="maintenanceimg.png"], img[src="masonryimg.png"], img[src="lightingimg.png"], img[src="irrigationimg.png"] {
+    height: 160px;
+    width: 160px;
+    border: #8FBC8F;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;
+}
+.image-one, .image-two, .image-three, .image-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+    padding: 0;
+    margin: 0;
+    max-width: 168px;
+    color: #1f2937;
+    gap: 8px;
+}
+.hero-button {
+    background-color: #228B22;
+    color:#efe7eb;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: none;
+    margin-top: 10px;
+}
+.signup-button {
+    background-color: #228B22;
+    color:#efe7eb;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 35px;
+    border-color:#efe7eb;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: none;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    column-gap: 25px;
+    margin-bottom: 0px;
+}
